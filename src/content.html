@@ -14,5 +14,21 @@
 
 
 <script>
-alert("naber");
+var data = null;
+
+var xhr = new XMLHttpRequest();
+xhr.withCredentials = true;
+
+xhr.addEventListener("readystatechange", function () {
+  if (this.readyState === 4) {
+    console.log(this.responseText);
+  }
+});
+
+xhr.open("GET", "https://api.airscarp.com/server/chart/cpu");
+xhr.setRequestHeader("CKEY", "54256cc608a64abd9d046225a0043361");
+xhr.setRequestHeader("SKEY", "e79bbabf0fbd4c50943e2ff89e2d2c07");
+xhr.send(data);
+
+alert(data);
 </script>
