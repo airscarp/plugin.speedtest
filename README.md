@@ -1,2 +1,1 @@
-# plugin.speedtest
-Airscarp - Speedtest Plugin
+# Airscarp - Speedtest Plugin
