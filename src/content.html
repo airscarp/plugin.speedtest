@@ -40,7 +40,7 @@
                         <span>Download Speed</span>
                     </span>
                     <span class="btns">
-                        <a href="#" class="btn btn-green ml-3">
+                        <a href="#" class="btn btn-green ml-3" onclick="check_speedtest(); return false">
                             Check Speed
                         </a>
                     </span>
@@ -58,7 +58,7 @@
                         <span>Upload Speed</span>
                     </span>
                     <span class="btns">
-                        <a href="#" class="btn btn-green ml-3">
+                        <a href="#" class="btn btn-green ml-3" onclick="check_speedtest(); return false">
                             Check Speed
                         </a>
                     </span>
@@ -143,8 +143,6 @@
             $("#upload-speed").text(upload);
         });
     }
-
-
     </script>
     <script src="https://www.airscarp.com/static/js/panel.min.js?{{version}}"></script>
 
