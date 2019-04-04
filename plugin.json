@@ -2,6 +2,6 @@
     "name"        : "Speedtest",
     "menu"        : "Speedtest",
     "alias"       : "speedtest",
-    "os"          : ["ubuntu", "centos", "debian", "cloudlinux", "fedora"],
+    "os"          : ["ubuntu", "centos", "rhel", "debian", "cloudlinux", "fedora"],
     "permissions" : ["send-command"]
 }
