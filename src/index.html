@@ -1,87 +1,68 @@
-<div class="result">
+<div class="plugin-speedtest">
     <div class="row">
-        <div class="col-6">
-            <header class="sec desc">
+        <div class="col-lg-4">
+            <header class="sec desc mt-4">
                 <span class="content">
-                    <span>Download Speed</span>
-                </span>
-                <span class="btns">
-                    <a href="#" class="btn btn-green ml-3" onclick="speedtest.check_speedtest(); return false">
-                        Check Speed
-                    </a>
+                    <span>History</span>
                 </span>
             </header>
-
-            <div class="card card-green">
+            <div class="card card-orange">
                 <div class="card-body">
-                    <span class="mbit" id="download-speed">...</span>
+                    <div id="download-speed"></div>
+                    <div id="upload-speed"></div>
+                    <div id="ping-speed"></div>
+                    <div id="testing-from"></div>
+                </div>
+            </div>
+            <button class="btn btn-success btn-block btn-lg" onclick="speedtest.test(); return false">Start Speedtest</button>
+        </div>
+        <div class="col-lg-8">
+            <header class="sec desc mt-4">
+                <span class="content">
+                    <span>History</span>
+                </span>
+            </header>
+            <div class="card card-orange">
+
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th class="header">Date</th>
+                                <th class="header">Download</th>
+                                <th class="header">Upload</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="header">2 days ago</td>
+                                <td class="header">600 mbit/s</td>
+                                <td class="header">400 mbit/s</td>
+                            </tr>
+                            <tr>
+                                <td class="header">2 days ago</td>
+                                <td class="header">600 mbit/s</td>
+                                <td class="header">400 mbit/s</td>
+                            </tr>
+                            <tr>
+                                <td class="header">2 days ago</td>
+                                <td class="header">600 mbit/s</td>
+                                <td class="header">400 mbit/s</td>
+                            </tr>
+                            <tr>
+                                <td class="header">2 days ago</td>
+                                <td class="header">600 mbit/s</td>
+                                <td class="header">400 mbit/s</td>
+                            </tr>
+                            <tr>
+                                <td class="header">2 days ago</td>
+                                <td class="header">600 mbit/s</td>
+                                <td class="header">400 mbit/s</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
-        <div class="col-6">
-            <header class="sec desc">
-                <span class="content">
-                    <span>Upload Speed</span>
-                </span>
-                <span class="btns">
-                    <a href="#" class="btn btn-green ml-3" onclick="speedtest.check_speedtest(); return false">
-                        Check Speed
-                    </a>
-                </span>
-            </header>
-
-            <div class="card card-green">
-                <div class="card-body">
-                    <span class="mbit" id="upload-speed">...</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<header class="sec desc mt-4">
-    <span class="content">
-        <span>History</span>
-    </span>
-</header>
-<div class="card card-orange">
-    
-    <div class="table-responsive">
-        <table class="table table-hover">
-            <thead>
-                <tr>
-                    <th class="header">Date</th>
-                    <th class="header">Download</th>
-                    <th class="header">Upload</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="header">2 days ago</td>
-                    <td class="header">600 mbit/s</td>
-                    <td class="header">400 mbit/s</td>
-                </tr>
-                <tr>
-                    <td class="header">2 days ago</td>
-                    <td class="header">600 mbit/s</td>
-                    <td class="header">400 mbit/s</td>
-                </tr>
-                <tr>
-                    <td class="header">2 days ago</td>
-                    <td class="header">600 mbit/s</td>
-                    <td class="header">400 mbit/s</td>
-                </tr>
-                <tr>
-                    <td class="header">2 days ago</td>
-                    <td class="header">600 mbit/s</td>
-                    <td class="header">400 mbit/s</td>
-                </tr>
-                <tr>
-                    <td class="header">2 days ago</td>
-                    <td class="header">600 mbit/s</td>
-                    <td class="header">400 mbit/s</td>
-                </tr>
-            </tbody>
-        </table>
     </div>
 </div>
