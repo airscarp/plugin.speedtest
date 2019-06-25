@@ -1,7 +1,7 @@
 {
     "name"        : "Speedtest",
     "menu"        : "Speedtest",
-    "alias"       : "speedtest",
+    "description" : "Speedtest measures the speed between your device and a test server, using your device's internet connection.",
     "os"          : ["ubuntu", "centos", "rhel", "debian", "cloudlinux", "fedora"],
     "permissions" : ["shell.exec"]
 }
