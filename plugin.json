@@ -3,5 +3,5 @@
     "menu"        : "Speedtest",
     "alias"       : "speedtest",
     "os"          : ["ubuntu", "centos", "rhel", "debian", "cloudlinux", "fedora"],
-    "permissions" : ["send-command"]
+    "permissions" : ["shell.exec"]
 }
