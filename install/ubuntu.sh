@@ -1,2 +1,2 @@
-sudo apt update
-sudo apt install speedtest-cli
+sudo apt-get update
+sudo apt-get install speedtest-cli -y
